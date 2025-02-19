@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -7,17 +6,12 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>OCSPath</PackageId>
-    <!-- 패키지 이름 -->
+    <PackageId>PathHelper</PackageId>
     <Version>0.9.0</Version>
-    <!-- 버전 -->
     <Authors>LEE SEUNG HWAN</Authors>
-    <!-- 작성자 이름 -->
-    <Description>Easy Dynamic Dijkstra</Description>
-    <!-- 패키지 설명 -->
+    <Description>Easy Dijkstra</Description>
     <PackageTags>oht, path</PackageTags>
-    <!-- 태그 (검색에 사용) -->
     <RepositoryUrl>https://github.com/kellysys/OCSPath</RepositoryUrl>
-    <!-- GitHub 또는 다른 리포지토리 URL -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 </Project>
